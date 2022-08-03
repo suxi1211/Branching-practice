@@ -1,0 +1,13 @@
+---
+title: "Diamondsile2"
+author: "Shengling Hu"
+date: '2022-08-02'
+output: pdf_document
+---
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+select(price, color, x)
+```
+
